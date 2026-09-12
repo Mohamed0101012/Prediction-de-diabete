@@ -1,0 +1,18 @@
+
+
+services:
+  backend:
+    build: ./backend
+    container_name: diabete-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/diabete.db:/app/diabete.db
+
+  frontend:
+    build: ./frontend
+    container_name: diabete-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
