@@ -54,6 +54,8 @@ Application web (PWA) permettant d'estimer, à titre pédagogique, le risque sta
 
 ## Architecture du projet :
 
+```
+
 ProjetFin/
 ├── ml/ # Exploration des données et entraînement du modèle
 │ ├── diabetes.csv
@@ -80,6 +82,8 @@ ProjetFin/
 │ └── Dockerfile
 ├── .github/workflows/ci.yml # Pipeline CI/CD
 └── docker-compose.yml
+
+```
 
 ---
 
