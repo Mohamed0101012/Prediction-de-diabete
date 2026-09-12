@@ -1,0 +1,9 @@
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+diabete.db
+dist/
+.pytest_cache/
